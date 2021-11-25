@@ -1,12 +1,12 @@
 {
-    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PLEXHQ HOSTING - PLEXHQ-HOSTING.COM",
     "meta": {
         "version": "PTDL_v1",
         "update_url": null
     },
     "exported_at": "2021-01-03T20:24:12+01:00",
     "name": "The Forest",
-    "author": "admin@softwarenoob.com",
+    "author": "ThatGuyPlex#0001",
     "description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first-person survival horror simulator.",
     "features": null,
     "images": [
@@ -40,7 +40,7 @@
             "name": "Server Name",
             "description": "Name of the server, appears in Steam browser.",
             "env_variable": "SERVER_NAME",
-            "default_value": "Pterodactyl Forest Server",
+            "default_value": "PlexHQ Hosting Forest Server",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:64"
@@ -65,7 +65,7 @@
         },
         {
             "name": "Max Players",
-            "description": "Server player cap",
+            "description": "Max Server Players",
             "env_variable": "MAX_PLAYERS",
             "default_value": "10",
             "user_viewable": true,
